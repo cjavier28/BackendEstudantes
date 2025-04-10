@@ -164,7 +164,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.CreateMateriasEstudianteDTO",
+        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.CreateMateriasEstudianteDto",
         "IsRequired": true
       }
     ],

@@ -219,17 +219,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMateriasEstudianteDTO"
+                "$ref": "#/components/schemas/CreateMateriasEstudianteDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMateriasEstudianteDTO"
+                "$ref": "#/components/schemas/CreateMateriasEstudianteDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateMateriasEstudianteDTO"
+                "$ref": "#/components/schemas/CreateMateriasEstudianteDto"
               }
             }
           }
@@ -463,7 +463,7 @@
   },
   "components": {
     "schemas": {
-      "CreateMateriasEstudianteDTO": {
+      "CreateMateriasEstudianteDto": {
         "type": "object",
         "properties": {
           "idEstudiante": {

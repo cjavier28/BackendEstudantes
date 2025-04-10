@@ -84,7 +84,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpPost("[action]")]
-        public async Task<ActionResult<DefaultResponse>> RegistrarMateriasEstudiante([FromBody] CreateMateriasEstudianteDTO request)
+        public async Task<ActionResult<DefaultResponse>> RegistrarMateriasEstudiante([FromBody] CreateMateriasEstudianteDto request)
         {
             try
             {
