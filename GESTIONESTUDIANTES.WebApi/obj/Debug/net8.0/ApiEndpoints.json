@@ -1,0 +1,286 @@
+[
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "SGEU.WebApi.DTOS.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "CreateEstudiante",
+    "RelativePath": "api/Estudiante/CreateEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudiante",
+        "Type": "SGEU.WebApi.DTOS.EstudianteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "DeleteMateriaEstudiante",
+    "RelativePath": "api/Estudiante/DeleteMateriaEstudiante",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstudiante",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idMateria",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "GetEstudianteByPrograma",
+    "RelativePath": "api/Estudiante/GetEstudianteByPrograma/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "GetEstudiantes",
+    "RelativePath": "api/Estudiante/GetEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "GetEstudiantesByMateria",
+    "RelativePath": "api/Estudiante/GetEstudiantesByMateria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "RegistrarMateriasEstudiante",
+    "RelativePath": "api/Estudiante/RegistrarMateriasEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SGEU.WebApi.DTOS.CreateMateriasEstudianteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "Method": "UpdateEstudiante",
+    "RelativePath": "api/Estudiante/UpdateEstudiante/{idEstudiante}/{idPrograma}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEstudiante",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPrograma",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.MateriaController",
+    "Method": "GetMateriaByEstudiante",
+    "RelativePath": "api/Materia/GetMateriaByEstudiante/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.MateriaController",
+    "Method": "GetMateriasByIdPrograma",
+    "RelativePath": "api/Materia/GetMateriasByIdPrograma/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SGEU.WebApi.Controllers.ProgramaController",
+    "Method": "GetProgramas",
+    "RelativePath": "api/Programa/GetProgramas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
