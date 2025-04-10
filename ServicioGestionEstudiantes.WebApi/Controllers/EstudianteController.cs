@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServicioGestionEstudiantes.Negocio;
@@ -11,6 +12,7 @@ namespace SGEU.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class EstudianteController : ResponseController
     {
         private readonly EstudianteService _estudianteService;

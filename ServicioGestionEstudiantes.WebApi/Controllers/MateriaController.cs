@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ServicioGestionEstudiantes.Negocio;
 using ServicioGestionEstudiantes.WebApi.Controllers;
@@ -8,6 +9,7 @@ namespace ServicioGestionEstudiantes.WebApi
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class MateriaController : ResponseController
     {
         private readonly MateriaService _materiaService;

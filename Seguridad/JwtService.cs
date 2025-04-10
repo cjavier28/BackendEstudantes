@@ -34,7 +34,7 @@ namespace ServicioGestionEstudiantes.Seguridad
             var expiration = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_config["Jwt:ExpireMinutes"]));
 
             var token = new JwtSecurityToken(
-                issuer: _config["Jwt:Issuer"],
+                issuer: _config["Jwt:Issuer"],  
                 audience: _config["Jwt:Audience"],
                 claims: claims,
                 expires: expiration,

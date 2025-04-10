@@ -19,5 +19,7 @@
         public virtual Programa? IdProgramaNavigation { get; set; }
 
         public virtual ICollection<Materia> IdMateria { get; set; } = new List<Materia>();
+
+       
     }
 }

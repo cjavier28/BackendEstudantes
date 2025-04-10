@@ -1024,7 +1024,8 @@
       "ServicioGestionEstudiantes.Negocio/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
-          "ServicioGestionEstudiantes.Datos": "1.0.0"
+          "ServicioGestionEstudiantes.Datos": "1.0.0",
+          "ServicioGestionEstudiantes.Seguridad": "1.0.0"
         },
         "runtime": {
           "ServicioGestionEstudiantes.Negocio.dll": {

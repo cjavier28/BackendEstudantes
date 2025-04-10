@@ -16,18 +16,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.services.addcors(options =>
-//{
-//    options.addpolicy("angularapp", builder =>
-//    {
-//        builder.withorigins("http://localhost:4200")
-//        //builder.withorigins("https://pagos.aliatesp.com:470")
-//        .setisoriginallowedtoallowwildcardsubdomains()
-//        .allowanymethod()
-//        .allowanyheader();
-//    });
-//});
-
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("angularApp",

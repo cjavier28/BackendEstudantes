@@ -131,6 +131,9 @@
             "projectReferences": {
               "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
                 "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj"
+              },
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj"
               }
             }
           }
