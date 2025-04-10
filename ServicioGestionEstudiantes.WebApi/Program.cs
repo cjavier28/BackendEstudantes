@@ -1,6 +1,7 @@
-using CapaDatos;
-using CapaNegocio;
+
 using Microsoft.EntityFrameworkCore;
+using ServicioGestionEstudiantes.Datos;
+using ServicioGestionEstudiantes.Negocio;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,15 +13,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddCors(options =>
+//builder.services.addcors(options =>
 //{
-//    options.AddPolicy("angularApp", builder =>
+//    options.addpolicy("angularapp", builder =>
 //    {
-//        builder.WithOrigins("http://localhost:4200")
-//        //builder.WithOrigins("https://pagos.aliatesp.com:470")
-//        .SetIsOriginAllowedToAllowWildcardSubdomains()
-//        .AllowAnyMethod()
-//        .AllowAnyHeader();
+//        builder.withorigins("http://localhost:4200")
+//        //builder.withorigins("https://pagos.aliatesp.com:470")
+//        .setisoriginallowedtoallowwildcardsubdomains()
+//        .allowanymethod()
+//        .allowanyheader();
 //    });
 //});
 

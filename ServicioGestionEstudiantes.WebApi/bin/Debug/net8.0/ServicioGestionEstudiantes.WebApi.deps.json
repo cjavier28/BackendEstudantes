@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
           "ServicioGestionEstudiantes.Datos": "1.0.0",
           "ServicioGestionEstudiantes.Negocio": "1.0.0",
+          "SonarAnalyzer.CSharp": "10.8.0.113526",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -671,6 +672,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/10.8.0.113526": {},
       "Swashbuckle.AspNetCore/6.4.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -1332,6 +1334,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/10.8.0.113526": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2+Gk4w467coeL9ozQlAN9y0mwMj3XmlacFYZE0Ptz4LC4EkmMPwY5ygYPkwg9/xJ1SIShmoAC+5Sinb3khHDng==",
+      "path": "sonaranalyzer.csharp/10.8.0.113526",
+      "hashPath": "sonaranalyzer.csharp.10.8.0.113526.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",

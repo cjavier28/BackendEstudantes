@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6+1KtAYEFGk=",
+  "dgSpecHash": "YALm9MdnESA=",
   "success": true,
   "projectFilePath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\cjavi\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\cjavi\\.nuget\\packages\\sonaranalyzer.csharp\\10.8.0.113526\\sonaranalyzer.csharp.10.8.0.113526.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

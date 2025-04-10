@@ -1,16 +1,17 @@
-﻿using CapaNegocio;
-using IntegracionNomina.WebApi.Controllers;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ServicioGestionEstudiantes.Negocio;
+using ServicioGestionEstudiantes.WebApi.Controllers;
 
 
-namespace SGEU.WebApi.Controllers
+namespace ServicioGestionEstudiantes.WebApi
 {
     [Route("api/[controller]")]
     [ApiController]
     public class MateriaController : ResponseController
     {
         private readonly MateriaService _materiaService;
+        private readonly DefaultResponse response = new();
 
         public MateriaController(MateriaService materiaService)
         {

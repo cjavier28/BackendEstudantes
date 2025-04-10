@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5WKtCN2x2w0=",
+  "dgSpecHash": "+g+08Zkn1qM=",
   "success": true,
   "projectFilePath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\cjavi\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\cjavi\\.nuget\\packages\\sonaranalyzer.csharp\\10.8.0.113526\\sonaranalyzer.csharp.10.8.0.113526.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\cjavi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

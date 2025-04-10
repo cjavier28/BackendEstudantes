@@ -1,11 +1,11 @@
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.deps.json
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.AssemblyInfoInputs.cache
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.AssemblyInfo.cs
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.sourcelink.json
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.deps.json
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\refint\ServicioGestionEstudiantes.Entidades.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb

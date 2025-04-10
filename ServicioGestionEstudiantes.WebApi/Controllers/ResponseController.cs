@@ -1,14 +1,15 @@
-﻿using CapaNegocio;
+﻿
 using Microsoft.AspNetCore.Mvc;
+using ServicioGestionEstudiantes.Negocio;
 using System.Collections;
 
-namespace IntegracionNomina.WebApi.Controllers
+namespace ServicioGestionEstudiantes.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ResponseController : ControllerBase
     {
-        public DefaultResponse response = new();
+        private readonly DefaultResponse response = new();
 
         [NonAction]
         public void SetDataResponse(object data)

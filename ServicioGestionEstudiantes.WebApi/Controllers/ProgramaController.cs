@@ -1,16 +1,18 @@
-﻿using CapaNegocio;
-using IntegracionNomina.WebApi.Controllers;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ServicioGestionEstudiantes.Negocio;
+using ServicioGestionEstudiantes.WebApi.Controllers;
 
 
-namespace SGEU.WebApi.Controllers
+namespace ServicioGestionEstudiantes.WebApi
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ProgramaController : ResponseController
     {
         private readonly ProgramaService _programaService;
+        private readonly DefaultResponse response = new();
 
         public ProgramaController(ProgramaService programaService)
         {

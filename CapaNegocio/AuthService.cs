@@ -1,11 +1,12 @@
-﻿using CapaDatos;
+﻿
 using Microsoft.EntityFrameworkCore;
 using ServicioGestionEstudiantes.Entidades;
 using Microsoft.Extensions.Configuration;
 using ServicioGestionEstudiantes.Negocio.DTOS;
 using BCrypt.Net;
+using ServicioGestionEstudiantes.Datos;
 
-namespace CapaNegocio
+namespace ServicioGestionEstudiantes.Negocio
 {
     public class AuthService
     {

@@ -1,6 +1,6 @@
 ﻿namespace ServicioGestionEstudiantes.Negocio.DTOS
 {
-    public class ProgramaDTO
+    public class ProgramaDto
     {
         public int IdPrograma { get; set; }
 

@@ -1,8 +1,9 @@
-﻿using CapaNegocio;
-using IntegracionNomina.WebApi.Controllers;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ServicioGestionEstudiantes.Negocio;
 using ServicioGestionEstudiantes.Negocio.DTOS;
+using ServicioGestionEstudiantes.WebApi.Controllers;
 
 
 
@@ -13,6 +14,8 @@ namespace SGEU.WebApi.Controllers
     public class EstudianteController : ResponseController
     {
         private readonly EstudianteService _estudianteService;
+        private readonly DefaultResponse response = new();
+
         public EstudianteController(EstudianteService estudianteService)
         {
             _estudianteService = estudianteService;

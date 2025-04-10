@@ -2,14 +2,14 @@
 using ServicioGestionEstudiantes.Entidades;
 using ServicioGestionEstudiantes.Negocio.DTOS;
 
-namespace SGEU.WebApi.Mappings
+namespace ServicioGestionEstudiantes.Negocio.Mappings
 {
     public class AutoMapperProfile : Profile
     {
         public AutoMapperProfile()
         {
             //Programa
-            CreateMap<Programa, ProgramaDTO>().ReverseMap();      
+            CreateMap<Programa, ProgramaDto>().ReverseMap();      
 
             //Materia
             CreateMap<Materia, MateriaDTO>().ReverseMap();
@@ -21,7 +21,7 @@ namespace SGEU.WebApi.Mappings
                 .ForMember(dest => dest.NombrePrograma,opt => opt.MapFrom(src => src.IdProgramas.FirstOrDefault().Nombre))
                 .ForMember(dest => dest.EmailProfesor,opt => opt.MapFrom(src => src.IdProfesors.FirstOrDefault().Email));
 
-            CreateMap<Materia, MateriasEstudianteDTO>()
+            CreateMap<Materia, MateriasEstudianteDto>()
             .ForMember(dest => dest.NombreProfesor, opt => opt.MapFrom(src => $"{src.IdProfesors.FirstOrDefault().NombresProfesor} {src.IdProfesors.FirstOrDefault().ApellidosProfesor}"))
             .ForMember(dest => dest.EmailProfesor, opt => opt.MapFrom(src => src.IdProfesors.FirstOrDefault().Email));
 

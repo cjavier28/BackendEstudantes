@@ -123,6 +123,12 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\b
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.csproj.AssemblyReference.cache
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.AssemblyInfoInputs.cache
@@ -148,9 +154,3 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\o
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.genruntimeconfig.cache
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.WebApi.dll
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.dll
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.pdb
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.dll
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.pdb

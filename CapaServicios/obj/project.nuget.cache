@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "t7nRcPK0sHk=",
+  "dgSpecHash": "M0Ap5LDpsBY=",
   "success": true,
   "projectFilePath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaServicios\\ServicioGestionEstudiantes.Servicios.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\cjavi\\.nuget\\packages\\sonaranalyzer.csharp\\10.8.0.113526\\sonaranalyzer.csharp.10.8.0.113526.nupkg.sha512"
+  ],
   "logs": []
 }

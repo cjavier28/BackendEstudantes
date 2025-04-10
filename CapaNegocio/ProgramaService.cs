@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using CapaDatos;
+
 using Microsoft.EntityFrameworkCore;
+using ServicioGestionEstudiantes.Datos;
 using ServicioGestionEstudiantes.Negocio.DTOS;
 
 
-namespace CapaNegocio
+namespace ServicioGestionEstudiantes.Negocio
 {
     public class ProgramaService
     {
@@ -18,10 +19,10 @@ namespace CapaNegocio
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<ProgramaDTO>> GetProgramas()
+        public async Task<IEnumerable<ProgramaDto>> GetProgramas()
         {
             return await _db.Programas
-                .ProjectTo<ProgramaDTO>(_mapper.ConfigurationProvider)
+                .ProjectTo<ProgramaDto>(_mapper.ConfigurationProvider)
                 .ToListAsync();
         }
         

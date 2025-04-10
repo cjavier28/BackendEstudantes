@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using ServicioGestionEstudiantes.Entidades;
 
-namespace CapaDatos
+namespace ServicioGestionEstudiantes.Datos
 {
 
     public partial class DBContext : DbContext

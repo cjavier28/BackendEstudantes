@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using CapaDatos;
 using Microsoft.EntityFrameworkCore;
+using ServicioGestionEstudiantes.Datos;
 using ServicioGestionEstudiantes.Negocio.DTOS;
 
 
-namespace CapaNegocio   
+namespace ServicioGestionEstudiantes.Negocio
 {
     public class MateriaService
     {
@@ -27,7 +27,7 @@ namespace CapaNegocio
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<MateriasEstudianteDTO>> GetMateriaByEstudiante(string idEstudiante)
+        public async Task<IEnumerable<MateriasEstudianteDto>> GetMateriaByEstudiante(string idEstudiante)
         {
             var materias = await _db.Materia
                 .Where(m => m.IdEstudiantes.Any(e => e.IdEstudiante == idEstudiante)) 
@@ -35,7 +35,7 @@ namespace CapaNegocio
                 .Include(m => m.IdProgramas)
                 .ToListAsync();
 
-            return _mapper.Map<List<MateriasEstudianteDTO>>(materias);
+            return _mapper.Map<List<MateriasEstudianteDto>>(materias);
         }     
 
     }

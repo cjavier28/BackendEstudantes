@@ -904,6 +904,9 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "SonarAnalyzer.CSharp/10.8.0.113526": {
+        "type": "package"
+      },
       "System.ClientModel/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -2941,6 +2944,24 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "SonarAnalyzer.CSharp/10.8.0.113526": {
+      "sha512": "2+Gk4w467coeL9ozQlAN9y0mwMj3XmlacFYZE0Ptz4LC4EkmMPwY5ygYPkwg9/xJ1SIShmoAC+5Sinb3khHDng==",
+      "type": "package",
+      "path": "sonaranalyzer.csharp/10.8.0.113526",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "analyzers/SonarAnalyzer.CSharp.dll",
+        "images/sonarsource_64.png",
+        "license/THIRD-PARTY-NOTICES.txt",
+        "sonaranalyzer.csharp.10.8.0.113526.nupkg.sha512",
+        "sonaranalyzer.csharp.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "System.ClientModel/1.0.0": {
       "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
       "type": "package",
@@ -4050,7 +4071,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
-      "ServicioGestionEstudiantes.Entidades >= 1.0.0"
+      "ServicioGestionEstudiantes.Entidades >= 1.0.0",
+      "SonarAnalyzer.CSharp >= 10.8.0.113526"
     ]
   },
   "packageFolders": {
@@ -4125,6 +4147,12 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.11, )"
+          },
+          "SonarAnalyzer.CSharp": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.8.0.113526, )"
           }
         },
         "imports": [

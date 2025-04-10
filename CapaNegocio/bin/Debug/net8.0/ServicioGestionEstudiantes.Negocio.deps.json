@@ -9,7 +9,8 @@
       "ServicioGestionEstudiantes.Negocio/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
-          "ServicioGestionEstudiantes.Datos": "1.0.0"
+          "ServicioGestionEstudiantes.Datos": "1.0.0",
+          "SonarAnalyzer.CSharp": "10.8.0.113526"
         },
         "runtime": {
           "ServicioGestionEstudiantes.Negocio.dll": {}
@@ -407,6 +408,7 @@
           }
         }
       },
+      "SonarAnalyzer.CSharp/10.8.0.113526": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
           "System.Memory.Data": "1.0.2",
@@ -854,6 +856,13 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "SonarAnalyzer.CSharp/10.8.0.113526": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2+Gk4w467coeL9ozQlAN9y0mwMj3XmlacFYZE0Ptz4LC4EkmMPwY5ygYPkwg9/xJ1SIShmoAC+5Sinb3khHDng==",
+      "path": "sonaranalyzer.csharp/10.8.0.113526",
+      "hashPath": "sonaranalyzer.csharp.10.8.0.113526.nupkg.sha512"
     },
     "System.ClientModel/1.0.0": {
       "type": "package",

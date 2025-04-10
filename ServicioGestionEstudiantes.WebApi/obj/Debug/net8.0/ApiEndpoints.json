@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "SGEU.WebApi.Controllers.AuthController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",
@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -41,7 +41,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,7 +72,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -98,7 +98,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -144,7 +144,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -201,7 +201,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -212,7 +212,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.MateriaController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.MateriaController",
     "Method": "GetMateriaByEstudiante",
     "RelativePath": "api/Materia/GetMateriaByEstudiante/{id}",
     "HttpMethod": "GET",
@@ -227,7 +227,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.MateriaController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.MateriaController",
     "Method": "GetMateriasByIdPrograma",
     "RelativePath": "api/Materia/GetMateriasByIdPrograma/{id}",
     "HttpMethod": "GET",
@@ -253,7 +253,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.ProgramaController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.ProgramaController",
     "Method": "GetProgramas",
     "RelativePath": "api/Programa/GetProgramas",
     "HttpMethod": "GET",
@@ -273,7 +273,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "CapaNegocio.DefaultResponse",
+        "Type": "ServicioGestionEstudiantes.Negocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

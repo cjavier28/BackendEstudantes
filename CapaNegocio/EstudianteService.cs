@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using CapaDatos;
 using Microsoft.EntityFrameworkCore;
+using ServicioGestionEstudiantes.Datos;
 using ServicioGestionEstudiantes.Entidades;
 using ServicioGestionEstudiantes.Negocio.DTOS;
 
 
 
-namespace CapaNegocio
+namespace ServicioGestionEstudiantes.Negocio
 {
     public class EstudianteService
     {
@@ -143,7 +143,7 @@ namespace CapaNegocio
                 .Distinct()   // Eliminar duplicados
                 .ToListAsync();
 
-            if (programasMateriasSeleccionadas.Count > 0 && programasMateriasSeleccionadas.First() != programaEstudiante)
+            if (programasMateriasSeleccionadas.Count > 0 && programasMateriasSeleccionadas.FirstOrDefault()!= programaEstudiante)
                 throw new Exception("Las materias seleccionadas no pertenecen al mismo programa en el que el estudiante está inscrito.");
 
             // Registrar las nuevas materias
