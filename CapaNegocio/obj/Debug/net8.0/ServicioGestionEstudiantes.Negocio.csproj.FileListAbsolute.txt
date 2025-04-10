@@ -10,3 +10,9 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\Servic
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\refint\ServicioGestionEstudiantes.Negocio.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.Negocio.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.csproj.AssemblyReference.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\Servicio.06AB32D0.Up2Date

@@ -2,10 +2,11 @@
 using CapaDatos;
 using Microsoft.EntityFrameworkCore;
 using ServicioGestionEstudiantes.Entidades;
+using ServicioGestionEstudiantes.Negocio.DTOS;
 
-using SGEU.WebApi.DTOS;
 
-namespace SGEU.WebApi.Services
+
+namespace CapaNegocio
 {
     public class EstudianteService
     {

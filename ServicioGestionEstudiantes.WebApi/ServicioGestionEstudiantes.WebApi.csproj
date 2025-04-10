@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CapaDatos\ServicioGestionEstudiantes.Datos.csproj" />
+    <ProjectReference Include="..\CapaNegocio\ServicioGestionEstudiantes.Negocio.csproj" />
   </ItemGroup>
 
 </Project>

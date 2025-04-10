@@ -1,8 +1,10 @@
-﻿using IntegracionNomina.WebApi.Controllers;
+﻿using CapaNegocio;
+using IntegracionNomina.WebApi.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SGEU.WebApi.DTOS;
-using SGEU.WebApi.Services;
+using ServicioGestionEstudiantes.Negocio.DTOS;
+
+
 
 namespace SGEU.WebApi.Controllers
 {

@@ -1,6 +1,7 @@
 using CapaDatos;
+using CapaNegocio;
 using Microsoft.EntityFrameworkCore;
-using SGEU.WebApi.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -9,13 +9,13 @@
     "Parameters": [
       {
         "Name": "loginDto",
-        "Type": "SGEU.WebApi.DTOS.LoginDTO",
+        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.LoginDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -35,13 +35,13 @@
     "Parameters": [
       {
         "Name": "estudiante",
-        "Type": "SGEU.WebApi.DTOS.EstudianteDTO",
+        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.EstudianteDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,7 +72,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -98,7 +98,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -144,7 +144,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -164,13 +164,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "SGEU.WebApi.DTOS.CreateMateriasEstudianteDTO",
+        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.CreateMateriasEstudianteDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -201,7 +201,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -227,7 +227,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -253,7 +253,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -273,7 +273,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "SGEU.WebApi.Services.DefaultResponse",
+        "Type": "CapaNegocio.DefaultResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

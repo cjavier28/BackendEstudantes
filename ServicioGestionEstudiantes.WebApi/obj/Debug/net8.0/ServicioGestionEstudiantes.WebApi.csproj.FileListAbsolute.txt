@@ -152,3 +152,5 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\b
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Datos.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.pdb

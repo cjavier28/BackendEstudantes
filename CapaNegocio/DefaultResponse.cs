@@ -1,4 +1,4 @@
-﻿namespace SGEU.WebApi.Services
+﻿namespace CapaNegocio
 {
     public class DefaultResponse
     {

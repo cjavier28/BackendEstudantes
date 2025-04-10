@@ -1,9 +1,11 @@
 ﻿using CapaDatos;
 using Microsoft.EntityFrameworkCore;
 using ServicioGestionEstudiantes.Entidades;
-using SGEU.WebApi.DTOS;
+using Microsoft.Extensions.Configuration;
+using ServicioGestionEstudiantes.Negocio.DTOS;
+using BCrypt.Net;
 
-namespace SGEU.WebApi.Services
+namespace CapaNegocio
 {
     public class AuthService
     {

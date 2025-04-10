@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ServicioGestionEstudiantes.Entidades;
-using SGEU.WebApi.DTOS;
+using ServicioGestionEstudiantes.Negocio.DTOS;
 
 namespace SGEU.WebApi.Mappings
 {

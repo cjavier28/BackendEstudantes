@@ -1,7 +1,8 @@
-﻿using IntegracionNomina.WebApi.Controllers;
+﻿using CapaNegocio;
+using IntegracionNomina.WebApi.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SGEU.WebApi.Services;
+
 
 namespace SGEU.WebApi.Controllers
 {

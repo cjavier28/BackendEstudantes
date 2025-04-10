@@ -1636,6 +1636,20 @@
         "runtime": {
           "bin/placeholder/ServicioGestionEstudiantes.Entidades.dll": {}
         }
+      },
+      "ServicioGestionEstudiantes.Negocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
+          "ServicioGestionEstudiantes.Datos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServicioGestionEstudiantes.Negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServicioGestionEstudiantes.Negocio.dll": {}
+        }
       }
     }
   },
@@ -4521,6 +4535,11 @@
       "type": "project",
       "path": "../ServicioGestionEstudiantes.Entidades/ServicioGestionEstudiantes.Entidades.csproj",
       "msbuildProject": "../ServicioGestionEstudiantes.Entidades/ServicioGestionEstudiantes.Entidades.csproj"
+    },
+    "ServicioGestionEstudiantes.Negocio/1.0.0": {
+      "type": "project",
+      "path": "../CapaNegocio/ServicioGestionEstudiantes.Negocio.csproj",
+      "msbuildProject": "../CapaNegocio/ServicioGestionEstudiantes.Negocio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4531,6 +4550,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
       "ServicioGestionEstudiantes.Datos >= 1.0.0",
+      "ServicioGestionEstudiantes.Negocio >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -4569,6 +4589,9 @@
           "projectReferences": {
             "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
               "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj"
+            },
+            "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj": {
+              "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj"
             }
           }
         }

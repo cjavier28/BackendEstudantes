@@ -1,4 +1,4 @@
-﻿namespace SGEU.WebApi.DTOS
+﻿namespace ServicioGestionEstudiantes.Negocio.DTOS
 {
     public class EstudianteMateriaDTO
     {

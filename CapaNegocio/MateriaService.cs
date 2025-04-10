@@ -2,9 +2,10 @@
 using AutoMapper.QueryableExtensions;
 using CapaDatos;
 using Microsoft.EntityFrameworkCore;
-using SGEU.WebApi.DTOS;
+using ServicioGestionEstudiantes.Negocio.DTOS;
 
-namespace SGEU.WebApi.Services
+
+namespace CapaNegocio   
 {
     public class MateriaService
     {
