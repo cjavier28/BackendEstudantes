@@ -154,3 +154,10 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\o
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.genruntimeconfig.cache
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.WebApi.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Seguridad.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\ServicioGestionEstudiantes.Seguridad.pdb

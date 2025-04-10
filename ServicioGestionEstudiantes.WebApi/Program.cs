@@ -1,8 +1,11 @@
 
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using ServicioGestionEstudiantes.Datos;
 using ServicioGestionEstudiantes.Negocio;
-
+using ServicioGestionEstudiantes.Seguridad;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,6 +51,28 @@ builder.Services.AddScoped<MateriaService>();
 builder.Services.AddScoped<EstudianteService>();
 builder.Services.AddScoped<AuthService>();
 
+
+
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        var config = builder.Configuration;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = config["Jwt:Issuer"],
+            ValidAudience = config["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(config["Jwt:Key"]))
+        };
+    });
+builder.Services.AddScoped<JwtService>();
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddAuthorization();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -56,6 +81,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 

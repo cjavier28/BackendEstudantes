@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
@@ -25,6 +26,8 @@
   <ItemGroup>
     <ProjectReference Include="..\CapaDatos\ServicioGestionEstudiantes.Datos.csproj" />
     <ProjectReference Include="..\CapaNegocio\ServicioGestionEstudiantes.Negocio.csproj" />
+    <ProjectReference Include="..\Seguridad\ServicioGestionEstudiantes.Seguridad.csproj" />
+    <ProjectReference Include="..\ServicioGestionEstudiantes.Entidades\ServicioGestionEstudiantes.Entidades.csproj" />
   </ItemGroup>
 
 </Project>
