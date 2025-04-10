@@ -14,7 +14,7 @@ namespace ServicioGestionEstudiantes.WebApi
     public class AuthController : ResponseController
     {
         private readonly AuthService _authService;
-        private readonly DefaultResponse response = new();
+
 
         public AuthController(AuthService authService)
         {

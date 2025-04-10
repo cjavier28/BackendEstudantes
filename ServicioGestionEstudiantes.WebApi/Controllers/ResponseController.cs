@@ -9,7 +9,7 @@ namespace ServicioGestionEstudiantes.WebApi.Controllers
     [ApiController]
     public class ResponseController : ControllerBase
     {
-        private readonly DefaultResponse response = new();
+        public readonly DefaultResponse response = new();
 
         [NonAction]
         public void SetDataResponse(object data)

@@ -11,7 +11,7 @@ namespace ServicioGestionEstudiantes.WebApi
     public class MateriaController : ResponseController
     {
         private readonly MateriaService _materiaService;
-        private readonly DefaultResponse response = new();
+
 
         public MateriaController(MateriaService materiaService)
         {

@@ -1,3 +1,11 @@
 /.vs
 /SGEU.WebApi/bin
 /SGEU.WebApi/obj
+/CapaDatos/obj
+/CapaNegocio/bin
+/CapaServicios/bin
+/Seguridad/bin
+/ServicioGestionEstudiantes.Entidades/obj
+/ServicioGestionEstudiantes.WebApi/bin
+/ServicioGestionEstudiantes.WebApi/obj
+/ServicioGestionEstudiantes.WebApi/obj

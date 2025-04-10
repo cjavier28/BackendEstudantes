@@ -14,7 +14,7 @@ namespace SGEU.WebApi.Controllers
     public class EstudianteController : ResponseController
     {
         private readonly EstudianteService _estudianteService;
-        private readonly DefaultResponse response = new();
+     
 
         public EstudianteController(EstudianteService estudianteService)
         {

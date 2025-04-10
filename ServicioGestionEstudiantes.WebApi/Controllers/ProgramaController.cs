@@ -12,7 +12,7 @@ namespace ServicioGestionEstudiantes.WebApi
     public class ProgramaController : ResponseController
     {
         private readonly ProgramaService _programaService;
-        private readonly DefaultResponse response = new();
+    
 
         public ProgramaController(ProgramaService programaService)
         {
@@ -24,7 +24,7 @@ namespace ServicioGestionEstudiantes.WebApi
         {
             try
             {
-                SetDataResponse(await _programaService.GetProgramas());
+             SetDataResponse(await _programaService.GetProgramas());
             }
             catch (Exception ex)
             {
