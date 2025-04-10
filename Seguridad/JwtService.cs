@@ -24,16 +24,16 @@ namespace ServicioGestionEstudiantes.Seguridad
         {
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, estudiante.IdEstudiante.ToString()),
-            new Claim(JwtRegisteredClaimNames.Email, estudiante.Email),
-            new Claim("nombre", estudiante.NombresEstudiante),
-        };
+                new Claim(JwtRegisteredClaimNames.Sub, estudiante.IdEstudiante.ToString()),
+                new Claim(JwtRegisteredClaimNames.Email, estudiante.Email),
+                new Claim("nombre", estudiante.NombresEstudiante),
+            };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var expiration = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_config["Jwt:ExpireMinutes"]));
+            SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
+            SigningCredentials creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            DateTime expiration = DateTime.UtcNow.AddMinutes(Convert.ToDouble(_config["Jwt:ExpireMinutes"]));
 
-            var token = new JwtSecurityToken(
+            JwtSecurityToken token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],  
                 audience: _config["Jwt:Audience"],
                 claims: claims,

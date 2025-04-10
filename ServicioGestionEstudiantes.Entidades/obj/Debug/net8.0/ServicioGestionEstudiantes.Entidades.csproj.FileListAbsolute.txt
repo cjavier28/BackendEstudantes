@@ -10,3 +10,15 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidade
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\refint\ServicioGestionEstudiantes.Entidades.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.deps.json
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.AssemblyInfoInputs.cache
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.AssemblyInfo.cs
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.sourcelink.json
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\refint\ServicioGestionEstudiantes.Entidades.dll
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
+C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.Entidades\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.Entidades.dll

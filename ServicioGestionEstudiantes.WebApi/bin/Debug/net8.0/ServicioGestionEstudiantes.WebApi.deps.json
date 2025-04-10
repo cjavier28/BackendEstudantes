@@ -1008,7 +1008,7 @@
         },
         "runtime": {
           "ServicioGestionEstudiantes.Datos.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1016,7 +1016,7 @@
       "ServicioGestionEstudiantes.Entidades/1.0.0": {
         "runtime": {
           "ServicioGestionEstudiantes.Entidades.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1029,7 +1029,7 @@
         },
         "runtime": {
           "ServicioGestionEstudiantes.Negocio.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1043,7 +1043,7 @@
         },
         "runtime": {
           "ServicioGestionEstudiantes.Seguridad.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

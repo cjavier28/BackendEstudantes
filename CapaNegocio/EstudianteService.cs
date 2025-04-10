@@ -50,15 +50,20 @@ namespace ServicioGestionEstudiantes.Negocio
 
             if (estudiant != null) throw new Exception($"El estudiante con número de cédula {estudiante.IdEstudiante} ya está registrado.");
 
-            if (string.IsNullOrEmpty(estudiante.IdEstudiante)) throw new Exception("Por favor ingrese su número de documento.");
+            if (string.IsNullOrEmpty(estudiante.IdEstudiante))
+                throw new Exception("Por favor ingrese su número de documento.");
 
-            if (string.IsNullOrEmpty(estudiante.NombresEstudiante)) throw new Exception("Por favor ingrese  sus nombres.");
+            if (string.IsNullOrEmpty(estudiante.NombresEstudiante)) 
+                throw new Exception("Por favor ingrese  sus nombres.");
 
-            if (string.IsNullOrEmpty(estudiante.ApellidosEstudiante)) throw new Exception("Por favor ingrese  sus apellido.");
+            if (string.IsNullOrEmpty(estudiante.ApellidosEstudiante)) 
+                throw new Exception("Por favor ingrese  sus apellido.");
 
-            if (string.IsNullOrEmpty(estudiante.Contrasena)) throw new Exception("Por favor ingrese una contraseña.");
+            if (string.IsNullOrEmpty(estudiante.Contrasena)) 
+                throw new Exception("Por favor ingrese una contraseña.");
             
-            if (string.IsNullOrEmpty(estudiante.Email)) throw new Exception("Por favor ingrese su Email.");
+            if (string.IsNullOrEmpty(estudiante.Email)) 
+                throw new Exception("Por favor ingrese su Email.");
 
 
             // Si el IdPrograma no es nulo, verificar si el programa existe

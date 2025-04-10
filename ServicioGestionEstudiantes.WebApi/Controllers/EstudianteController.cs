@@ -12,7 +12,7 @@ namespace SGEU.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+
     public class EstudianteController : ResponseController
     {
         private readonly EstudianteService _estudianteService;
@@ -24,6 +24,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpGet("[action]")]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse>> GetEstudiantes()
         {
             try
@@ -39,6 +40,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpGet("[action]/{id}")]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse>> GetEstudianteByPrograma(int id)
         {
             try
@@ -54,6 +56,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpGet("[action]/{id}")]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse>> GetEstudiantesByMateria(int id)
         {
             try
@@ -69,6 +72,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpPost("[action]")]
+      
         public async Task<ActionResult<DefaultResponse>> CreateEstudiante(EstudianteDTO estudiante)
         {
             try
@@ -99,6 +103,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpPut("[action]/{idEstudiante}/{idPrograma}")]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse>> UpdateEstudiante(string idEstudiante, int idPrograma)
         {
             try
@@ -114,6 +119,7 @@ namespace SGEU.WebApi.Controllers
         }
 
         [HttpDelete("[action]")]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse>> DeleteMateriaEstudiante([FromQuery] string idEstudiante, [FromQuery] int idMateria)
         {
             try
