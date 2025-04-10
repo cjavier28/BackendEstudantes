@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGestionEstudiantes.WebApi", "ServicioGestionEstudiantes.WebApi\ServicioGestionEstudiantes.WebApi.csproj", "{B01D825F-FAA5-48D4-B8D4-61F73437BE96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGestionEstudiantes.Datos", "CapaDatos\ServicioGestionEstudiantes.Datos.csproj", "{9073358F-2790-4763-BB5E-09DD88E25B7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGestionEstudiantes.Negocio", "CapaNegocio\ServicioGestionEstudiantes.Negocio.csproj", "{91F6C496-B1D8-4711-8C8C-E60FE52BA79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGestionEstudiantes.Servicios", "CapaServicios\ServicioGestionEstudiantes.Servicios.csproj", "{FBA6C8B8-8C6F-4AA5-AD35-BB71E4464D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGestionEstudiantes.Seguridad", "Seguridad\ServicioGestionEstudiantes.Seguridad.csproj", "{AFA04734-9011-4CD9-9168-AE0BFEB3D45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioGestionEstudiantes.Entidades", "ServicioGestionEstudiantes.Entidades\ServicioGestionEstudiantes.Entidades.csproj", "{687CC9E8-4551-4F78-A8C9-906B9298AFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B01D825F-FAA5-48D4-B8D4-61F73437BE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01D825F-FAA5-48D4-B8D4-61F73437BE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01D825F-FAA5-48D4-B8D4-61F73437BE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01D825F-FAA5-48D4-B8D4-61F73437BE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9073358F-2790-4763-BB5E-09DD88E25B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9073358F-2790-4763-BB5E-09DD88E25B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9073358F-2790-4763-BB5E-09DD88E25B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9073358F-2790-4763-BB5E-09DD88E25B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F6C496-B1D8-4711-8C8C-E60FE52BA79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F6C496-B1D8-4711-8C8C-E60FE52BA79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F6C496-B1D8-4711-8C8C-E60FE52BA79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F6C496-B1D8-4711-8C8C-E60FE52BA79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA6C8B8-8C6F-4AA5-AD35-BB71E4464D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA6C8B8-8C6F-4AA5-AD35-BB71E4464D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA6C8B8-8C6F-4AA5-AD35-BB71E4464D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA6C8B8-8C6F-4AA5-AD35-BB71E4464D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA04734-9011-4CD9-9168-AE0BFEB3D45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA04734-9011-4CD9-9168-AE0BFEB3D45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA04734-9011-4CD9-9168-AE0BFEB3D45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA04734-9011-4CD9-9168-AE0BFEB3D45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687CC9E8-4551-4F78-A8C9-906B9298AFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687CC9E8-4551-4F78-A8C9-906B9298AFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687CC9E8-4551-4F78-A8C9-906B9298AFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687CC9E8-4551-4F78-A8C9-906B9298AFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4B2D97B-7E9D-44AC-BA23-A8E9ACFE1C6F}
+	EndGlobalSection
+EndGlobal

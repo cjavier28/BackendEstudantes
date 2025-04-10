@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fUWpS87c7KlxuiSzoWXbgfW+O/pzWS996E7Lj0EEXxk=",
+  "Source": "ServicioGestionEstudiantes.WebApi",
+  "BasePath": "_content/ServicioGestionEstudiantes.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

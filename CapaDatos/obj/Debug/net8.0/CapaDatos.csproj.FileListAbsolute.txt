@@ -1,0 +1,6 @@
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaDatos\obj\Debug\net8.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaDatos\obj\Debug\net8.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaDatos\obj\Debug\net8.0\CapaDatos.AssemblyInfo.cs
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaDatos\obj\Debug\net8.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaDatos\obj\Debug\net8.0\CapaDatos.sourcelink.json

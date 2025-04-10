@@ -1,0 +1,12 @@
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.deps.json
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\bin\Debug\net8.0\ServicioGestionEstudiantes.Negocio.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.AssemblyInfoInputs.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.AssemblyInfo.cs
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.sourcelink.json
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\refint\ServicioGestionEstudiantes.Negocio.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ServicioGestionEstudiantes.Negocio.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\CapaNegocio\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.Negocio.dll
