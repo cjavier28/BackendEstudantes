@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ServicioGestionEstudiantes.WebApi.AuthController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/Login",
     "HttpMethod": "POST",
@@ -212,7 +212,7 @@
     ]
   },
   {
-    "ContainingType": "ServicioGestionEstudiantes.WebApi.MateriaController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.MateriaController",
     "Method": "GetMateriaByEstudiante",
     "RelativePath": "api/Materia/GetMateriaByEstudiante/{id}",
     "HttpMethod": "GET",
@@ -238,7 +238,7 @@
     ]
   },
   {
-    "ContainingType": "ServicioGestionEstudiantes.WebApi.MateriaController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.MateriaController",
     "Method": "GetMateriasByIdPrograma",
     "RelativePath": "api/Materia/GetMateriasByIdPrograma/{id}",
     "HttpMethod": "GET",
@@ -264,7 +264,7 @@
     ]
   },
   {
-    "ContainingType": "ServicioGestionEstudiantes.WebApi.ProgramaController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.ProgramaController",
     "Method": "GetProgramas",
     "RelativePath": "api/Programa/GetProgramas",
     "HttpMethod": "GET",

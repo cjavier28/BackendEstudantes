@@ -6,7 +6,7 @@ using ServicioGestionEstudiantes.Negocio;
 using ServicioGestionEstudiantes.WebApi.Controllers;
 
 
-namespace ServicioGestionEstudiantes.WebApi
+namespace ServicioGestionEstudiantes.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
