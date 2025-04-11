@@ -101,7 +101,7 @@ namespace ServicioGestionEstudiantes.Negocio
                                       .FirstOrDefaultAsync();
 
             if (estudiante == null)
-                throw new Exception($"El estudiante con número de cédula {idEstudiante} no existe.");
+                throw new InvalidOperationException($"El estudiante con número de cédula {idEstudiante} no existe.");
 
             var materiasRegistradas = await _db.Estudiantes
                                                 .Where(e => e.IdEstudiante == idEstudiante)
@@ -109,10 +109,10 @@ namespace ServicioGestionEstudiantes.Negocio
                                                 .ToListAsync();
 
             if (materiasRegistradas.Any())
-                throw new Exception("No se puede cambiar de programa. El estudiante ya tiene materias registradas.");
+                throw new InvalidOperationException("No se puede cambiar de programa. El estudiante ya tiene materias registradas.");
 
             if (estudiante.IdPrograma == idPrograma)
-                throw new Exception("El estudiante ya está inscrito en este programa.");
+                throw new InvalidOperationException("El estudiante ya está inscrito en este programa.");
 
             estudiante.IdPrograma = idPrograma;
 
@@ -130,15 +130,15 @@ namespace ServicioGestionEstudiantes.Negocio
                 .FirstOrDefaultAsync(e => e.IdEstudiante == idEstudiante);
 
             if (estudiante == null)
-                throw new Exception("Estudiante no encontrado.");
+                throw new InvalidOperationException("Estudiante no encontrado.");
 
             if (estudiante.IdMateria.Count >= 3)
-                throw new Exception("El estudiante ya tiene tres materias registradas. No puede agregar más.");
+                throw new InvalidOperationException("El estudiante ya tiene tres materias registradas. No puede agregar más.");
 
             bool esValido = await ValidarMaterias(idMaterias);
 
             if (!esValido)
-                throw new Exception("Las materias seleccionadas no son válidas. Debes seleccionar un máximo de tres materias, y no puedes seleccionar más de una materia del mismo profesor.");
+                throw new InvalidOperationException("Las materias seleccionadas no son válidas. Debes seleccionar un máximo de tres materias, y no puedes seleccionar más de una materia del mismo profesor.");
 
             var programaEstudiante = estudiante.IdProgramaNavigation;  // El programa al que el estudiante está inscrito
 
@@ -149,7 +149,7 @@ namespace ServicioGestionEstudiantes.Negocio
                 .ToListAsync();
 
             if (programasMateriasSeleccionadas.Count > 0 && programasMateriasSeleccionadas.FirstOrDefault()!= programaEstudiante)
-                throw new Exception("Las materias seleccionadas no pertenecen al mismo programa en el que el estudiante está inscrito.");
+                throw new InvalidOperationException("Las materias seleccionadas no pertenecen al mismo programa en el que el estudiante está inscrito.");
 
             // Registrar las nuevas materias
             foreach (var materiaId in idMaterias)
@@ -195,12 +195,12 @@ namespace ServicioGestionEstudiantes.Negocio
                 .FirstOrDefaultAsync(e => e.IdEstudiante == idEstudiante);
 
             if (estudiante == null)
-                throw new Exception("Estudiante no encontrado.");
+                throw new InvalidOperationException("Estudiante no encontrado.");
 
             Materia? materia = estudiante.IdMateria.FirstOrDefault(m => m.IdMateria == idMateria);
 
             if (materia == null)
-                throw new Exception($"El estudiante no está inscrito en la materia con ID {idMateria}.");
+                throw new InvalidOperationException($"El estudiante no está inscrito en la materia con ID {idMateria}.");
 
             estudiante.IdMateria.Remove(materia);
 

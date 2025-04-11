@@ -34,11 +34,11 @@ namespace ServicioGestionEstudiantes.Negocio
                     .FirstOrDefaultAsync(e => e.Email == loginDto.Email);
 
                 if (usuario == null)
-                    throw new Exception("Usuario no encontrado.");
+                    throw new InvalidOperationException("Usuario no encontrado.");
 
 
                 if (!BCrypt.Net.BCrypt.Verify(loginDto.Contrasena, usuario.Contrasena))
-                    throw new Exception("Contraseña incorrecta");
+                    throw new InvalidOperationException("Contraseña incorrecta");
 
 
                 token.TokenBearer = _jwtService.GenerateToken(usuario);
