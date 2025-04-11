@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj": {}
+    "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
+    "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj",
+        "projectUniqueName": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj",
         "projectName": "ServicioGestionEstudiantes.Datos",
-        "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj",
-        "packagesPath": "C:\\Users\\carlosjmarentesr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\obj\\",
+        "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj",
+        "packagesPath": "C:\\Users\\cjavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosjmarentesr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cjavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -30,15 +27,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://maceio.interrapidisimo.co:4445/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj"
               }
             }
           }
@@ -53,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -100,29 +96,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj": {
+    "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj",
         "projectName": "ServicioGestionEstudiantes.Negocio",
-        "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj",
-        "packagesPath": "C:\\Users\\carlosjmarentesr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaNegocio\\obj\\",
+        "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj",
+        "packagesPath": "C:\\Users\\cjavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosjmarentesr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cjavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -130,18 +123,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://maceio.interrapidisimo.co:4445/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj"
               },
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj"
               }
             }
           }
@@ -156,7 +148,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -165,6 +157,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SonarAnalyzer.CSharp": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -189,29 +185,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
+    "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj",
         "projectName": "ServicioGestionEstudiantes.Seguridad",
-        "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj",
-        "packagesPath": "C:\\Users\\carlosjmarentesr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\obj\\",
+        "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj",
+        "packagesPath": "C:\\Users\\cjavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosjmarentesr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cjavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -219,15 +212,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://maceio.interrapidisimo.co:4445/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj"
               }
             }
           }
@@ -242,7 +234,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -283,29 +275,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
+    "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj",
         "projectName": "ServicioGestionEstudiantes.Entidades",
-        "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj",
-        "packagesPath": "C:\\Users\\carlosjmarentesr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\obj\\",
+        "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj",
+        "packagesPath": "C:\\Users\\cjavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosjmarentesr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cjavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -313,8 +302,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://maceio.interrapidisimo.co:4445/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -332,7 +320,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -361,29 +349,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj": {
+    "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj",
         "projectName": "ServicioGestionEstudiantes.WebApi",
-        "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj",
-        "packagesPath": "C:\\Users\\carlosjmarentesr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.WebApi\\ServicioGestionEstudiantes.WebApi.csproj",
+        "packagesPath": "C:\\Users\\cjavi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlosjmarentesr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cjavi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -391,24 +376,23 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://maceio.interrapidisimo.co:4445/nuget": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaDatos\\ServicioGestionEstudiantes.Datos.csproj"
               },
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\CapaNegocio\\ServicioGestionEstudiantes.Negocio.csproj"
               },
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\Seguridad\\ServicioGestionEstudiantes.Seguridad.csproj"
               },
-              "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
-                "projectPath": "C:\\Users\\carlosjmarentesr\\BackendEstudantes\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj"
+              "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj": {
+                "projectPath": "C:\\Users\\cjavi\\Desktop\\PruebaTecnica\\Backend\\ServicioGestionEstudiantes.Entidades\\ServicioGestionEstudiantes.Entidades.csproj"
               }
             }
           }
@@ -423,7 +407,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -485,7 +469,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

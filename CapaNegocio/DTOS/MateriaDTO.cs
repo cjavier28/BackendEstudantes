@@ -2,7 +2,7 @@
 
 namespace ServicioGestionEstudiantes.Negocio.DTOS
 {
-    public class MateriaDTO
+    public class MateriaDto
     {
         public int IdMateria { get; set; }
 

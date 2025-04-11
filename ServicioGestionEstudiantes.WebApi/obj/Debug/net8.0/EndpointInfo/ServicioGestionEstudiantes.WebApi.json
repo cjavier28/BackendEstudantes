@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginDTO"
+                "$ref": "#/components/schemas/LoginDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginDTO"
+                "$ref": "#/components/schemas/LoginDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/LoginDTO"
+                "$ref": "#/components/schemas/LoginDto"
               }
             }
           }
@@ -171,17 +171,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/EstudianteDTO"
+                "$ref": "#/components/schemas/EstudianteDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/EstudianteDTO"
+                "$ref": "#/components/schemas/EstudianteDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/EstudianteDTO"
+                "$ref": "#/components/schemas/EstudianteDto"
               }
             }
           }
@@ -501,7 +501,7 @@
         },
         "additionalProperties": false
       },
-      "EstudianteDTO": {
+      "EstudianteDto": {
         "type": "object",
         "properties": {
           "idEstudiante": {
@@ -536,7 +536,7 @@
         },
         "additionalProperties": false
       },
-      "LoginDTO": {
+      "LoginDto": {
         "type": "object",
         "properties": {
           "idEstudiante": {

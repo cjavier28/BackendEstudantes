@@ -324,3 +324,4 @@ C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.WebApi\ob
 C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.pdb
 C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ServicioGestionEstudiantes.WebApi.genruntimeconfig.cache
 C:\Users\carlosjmarentesr\BackendEstudantes\ServicioGestionEstudiantes.WebApi\obj\Debug\net8.0\ref\ServicioGestionEstudiantes.WebApi.dll
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes.WebApi\bin\Debug\net8.0\Newtonsoft.Json.dll

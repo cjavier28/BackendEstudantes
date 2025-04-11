@@ -6,7 +6,8 @@ using ServicioGestionEstudiantes.Negocio.DTOS;
 using BCrypt.Net;
 using ServicioGestionEstudiantes.Datos;
 using ServicioGestionEstudiantes.Seguridad;
-
+using Newtonsoft;
+using Newtonsoft.Json;
 namespace ServicioGestionEstudiantes.Negocio
 {
     public class AuthService
@@ -22,24 +23,31 @@ namespace ServicioGestionEstudiantes.Negocio
             _jwtService = jwtService;
         }
 
-        public async Task<Token> Login(LoginDTO loginDto)
+        public async Task<Token> Login(LoginDto loginDto)
         {
+            Token token = new Token();
+            try
+            {
+               
 
-            Token token = new Token();          
+                Estudiante? usuario = await _db.Estudiantes
+                    .FirstOrDefaultAsync(e => e.Email == loginDto.Email);
 
-
-            var usuario = await _db.Estudiantes
-                .FirstOrDefaultAsync(e => e.Email == loginDto.Email);
-
-            if (usuario == null)
-                throw new Exception("Usuario no encontrado.");
-
-
-            if (!BCrypt.Net.BCrypt.Verify(loginDto.Contrasena, usuario.Contrasena))
-                throw new Exception("Contraseña incorrecta");
+                if (usuario == null)
+                    throw new Exception("Usuario no encontrado.");
 
 
-            token.TokenBearer = _jwtService.GenerateToken(usuario);
+                if (!BCrypt.Net.BCrypt.Verify(loginDto.Contrasena, usuario.Contrasena))
+                    throw new Exception("Contraseña incorrecta");
+
+
+                token.TokenBearer = _jwtService.GenerateToken(usuario);
+              
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(JsonConvert.SerializeObject(ex));
+            }
             return token;
         }
 

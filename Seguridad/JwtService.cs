@@ -22,7 +22,7 @@ namespace ServicioGestionEstudiantes.Seguridad
 
         public string GenerateToken(Estudiante estudiante)
         {
-            var claims = new[]
+            Claim[] claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, estudiante.IdEstudiante.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, estudiante.Email),

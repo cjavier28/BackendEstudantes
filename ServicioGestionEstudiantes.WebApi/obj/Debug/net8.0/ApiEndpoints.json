@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "loginDto",
-        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.LoginDTO",
+        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.LoginDto",
         "IsRequired": true
       }
     ],
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "CreateEstudiante",
     "RelativePath": "api/Estudiante/CreateEstudiante",
     "HttpMethod": "POST",
@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "estudiante",
-        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.EstudianteDTO",
+        "Type": "ServicioGestionEstudiantes.Negocio.DTOS.EstudianteDto",
         "IsRequired": true
       }
     ],
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "DeleteMateriaEstudiante",
     "RelativePath": "api/Estudiante/DeleteMateriaEstudiante",
     "HttpMethod": "DELETE",
@@ -83,7 +83,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "GetEstudianteByPrograma",
     "RelativePath": "api/Estudiante/GetEstudianteByPrograma/{id}",
     "HttpMethod": "GET",
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "GetEstudiantes",
     "RelativePath": "api/Estudiante/GetEstudiantes",
     "HttpMethod": "GET",
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "GetEstudiantesByMateria",
     "RelativePath": "api/Estudiante/GetEstudiantesByMateria/{id}",
     "HttpMethod": "GET",
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "RegistrarMateriasEstudiante",
     "RelativePath": "api/Estudiante/RegistrarMateriasEstudiante",
     "HttpMethod": "POST",
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "ContainingType": "SGEU.WebApi.Controllers.EstudianteController",
+    "ContainingType": "ServicioGestionEstudiantes.WebApi.Controllers.EstudianteController",
     "Method": "UpdateEstudiante",
     "RelativePath": "api/Estudiante/UpdateEstudiante/{idEstudiante}/{idPrograma}",
     "HttpMethod": "PUT",

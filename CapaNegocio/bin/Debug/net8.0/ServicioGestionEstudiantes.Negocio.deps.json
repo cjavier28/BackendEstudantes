@@ -9,6 +9,7 @@
       "ServicioGestionEstudiantes.Negocio/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
+          "Newtonsoft.Json": "13.0.3",
           "ServicioGestionEstudiantes.Datos": "1.0.0",
           "ServicioGestionEstudiantes.Seguridad": "1.0.0",
           "SonarAnalyzer.CSharp": "10.8.0.113526"
@@ -423,6 +424,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
       "SonarAnalyzer.CSharp/10.8.0.113526": {},
       "System.ClientModel/1.0.0": {
         "dependencies": {
@@ -600,7 +609,7 @@
         },
         "runtime": {
           "ServicioGestionEstudiantes.Datos.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -608,7 +617,7 @@
       "ServicioGestionEstudiantes.Entidades/1.0.0": {
         "runtime": {
           "ServicioGestionEstudiantes.Entidades.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -622,7 +631,7 @@
         },
         "runtime": {
           "ServicioGestionEstudiantes.Seguridad.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -865,6 +874,13 @@
       "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "SonarAnalyzer.CSharp/10.8.0.113526": {
       "type": "package",

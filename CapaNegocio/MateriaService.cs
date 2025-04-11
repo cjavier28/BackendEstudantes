@@ -18,18 +18,18 @@ namespace ServicioGestionEstudiantes.Negocio
             _mapper = mapper;
         }       
 
-        public async Task<IEnumerable<ProgramaMateriaDTO>> GetMateriasPrograma(int idPrograma)
+        public async Task<IEnumerable<ProgramaMateriaDto>> GetMateriasPrograma(int idPrograma)
         {
             return await _db.Programas
                 .Where(p => p.IdPrograma == idPrograma)
                 .SelectMany(p => p.IdMateria)
-                .ProjectTo<ProgramaMateriaDTO>(_mapper.ConfigurationProvider)
+                .ProjectTo<ProgramaMateriaDto>(_mapper.ConfigurationProvider)
                 .ToListAsync();
         }
 
         public async Task<IEnumerable<MateriasEstudianteDto>> GetMateriaByEstudiante(string idEstudiante)
         {
-            var materias = await _db.Materia
+            List<Entidades.Materia> materias = await _db.Materia
                 .Where(m => m.IdEstudiantes.Any(e => e.IdEstudiante == idEstudiante)) 
                 .Include(m => m.IdProfesors)
                 .Include(m => m.IdProgramas)

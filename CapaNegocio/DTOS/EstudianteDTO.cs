@@ -2,7 +2,7 @@
 
 namespace ServicioGestionEstudiantes.Negocio.DTOS
 {
-    public class EstudianteDTO
+    public class EstudianteDto
     {
         public string IdEstudiante { get; set; } = null!;
 

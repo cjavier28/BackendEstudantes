@@ -8,7 +8,7 @@ using ServicioGestionEstudiantes.WebApi.Controllers;
 
 
 
-namespace SGEU.WebApi.Controllers
+namespace ServicioGestionEstudiantes.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -73,7 +73,7 @@ namespace SGEU.WebApi.Controllers
 
         [HttpPost("[action]")]
       
-        public async Task<ActionResult<DefaultResponse>> CreateEstudiante(EstudianteDTO estudiante)
+        public async Task<ActionResult<DefaultResponse>> CreateEstudiante(EstudianteDto estudiante)
         {
             try
             {

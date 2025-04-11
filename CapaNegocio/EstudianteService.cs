@@ -24,71 +24,71 @@ namespace ServicioGestionEstudiantes.Negocio
             return await _db.Estudiantes.ToListAsync();
         }
 
-        public async Task<IEnumerable<EstudianteProgramaDTO>> GetEstudiantesByPrograma(int idPrograma)
+        public async Task<IEnumerable<EstudianteProgramaDto>> GetEstudiantesByPrograma(int idPrograma)
         {
-            var estudiantes = await _db.Estudiantes
+            List<Estudiante>? estudiantes = await _db.Estudiantes
                 .Where(e => e.IdPrograma == idPrograma)
                 .Include(e => e.IdProgramaNavigation)
                 .ToListAsync();
-            return _mapper.Map<List<EstudianteProgramaDTO>>(estudiantes);
+            return _mapper.Map<List<EstudianteProgramaDto>>(estudiantes);
         }
 
-        public async Task<IEnumerable<EstudianteMateriaDTO>> GetEstudianteByMateria(int idMateria)
+        public async Task<IEnumerable<EstudianteMateriaDto>> GetEstudianteByMateria(int idMateria)
         {
-            var estudiantes = await _db.Estudiantes
+            List<Estudiante>? estudiantes = await _db.Estudiantes
                 .Where(e => e.IdPrograma == idMateria)
                 .Include(e => e.IdProgramaNavigation)
                 .ToListAsync();
-            return _mapper.Map<List<EstudianteMateriaDTO>>(estudiantes);
+            return _mapper.Map<List<EstudianteMateriaDto>>(estudiantes);
         }
 
-        public async Task<string> CreateEstudiante(EstudianteDTO estudiante)
+        public async Task<string> CreateEstudiante(EstudianteDto estudiante)
         {
-            var estudiant = await _db.Estudiantes
+            Estudiante? estudiant = await _db.Estudiantes
                 .Where(e => e.IdEstudiante == estudiante.IdEstudiante)
                 .FirstOrDefaultAsync();
 
-            if (estudiant != null) throw new Exception($"El estudiante con número de cédula {estudiante.IdEstudiante} ya está registrado.");
+            if (estudiant != null) throw new InvalidOperationException($"El estudiante con número de cédula {estudiante.IdEstudiante} ya está registrado.");
 
             if (string.IsNullOrEmpty(estudiante.IdEstudiante))
-                throw new Exception("Por favor ingrese su número de documento.");
+                throw new InvalidOperationException("Por favor ingrese su número de documento.");
 
             if (string.IsNullOrEmpty(estudiante.NombresEstudiante)) 
-                throw new Exception("Por favor ingrese  sus nombres.");
+                throw new InvalidOperationException("Por favor ingrese  sus nombres.");
 
             if (string.IsNullOrEmpty(estudiante.ApellidosEstudiante)) 
-                throw new Exception("Por favor ingrese  sus apellido.");
+                throw new InvalidOperationException("Por favor ingrese  sus apellido.");
 
             if (string.IsNullOrEmpty(estudiante.Contrasena)) 
-                throw new Exception("Por favor ingrese una contraseña.");
+                throw new InvalidOperationException("Por favor ingrese una contraseña.");
             
             if (string.IsNullOrEmpty(estudiante.Email)) 
-                throw new Exception("Por favor ingrese su Email.");
+                throw new InvalidOperationException("Por favor ingrese su Email.");
 
 
             // Si el IdPrograma no es nulo, verificar si el programa existe
             if (estudiante.IdPrograma != null)
             {
-                var programa = await _db.Programas
+                Programa? programa = await _db.Programas
                     .Where(p => p.IdPrograma == estudiante.IdPrograma)
                     .FirstOrDefaultAsync();
 
                 if (programa == null)
-                    throw new Exception($"El programa con ID {estudiante.IdPrograma} no existe.");
+                    throw new InvalidOperationException($"El programa con ID {estudiante.IdPrograma} no existe.");
             }
 
             // Generar un salt único para la contraseña
-            var salt = BCrypt.Net.BCrypt.GenerateSalt();
+            string? salt = BCrypt.Net.BCrypt.GenerateSalt();
 
             // Encriptar la contraseña usando el salt generado
-            var hashedPassword = BCrypt.Net.BCrypt.HashPassword(estudiante.Contrasena, salt);
+            string? hashedPassword = BCrypt.Net.BCrypt.HashPassword(estudiante.Contrasena, salt);
 
-            var newEstudiante = _mapper.Map<Estudiante>(estudiante);
+            Estudiante? nuevoEstudiante = _mapper.Map<Estudiante>(estudiante);
 
-            newEstudiante.Contrasena = hashedPassword;
-            newEstudiante.Salt = salt;
+            nuevoEstudiante.Contrasena = hashedPassword;
+            nuevoEstudiante.Salt = salt;
 
-            await _db.AddAsync(newEstudiante);
+            await _db.AddAsync(nuevoEstudiante);
             await _db.SaveChangesAsync();
 
             return "Estudiante creado correctamete!";
@@ -96,7 +96,7 @@ namespace ServicioGestionEstudiantes.Negocio
 
         public async Task<string> UpdateEstudiante(string idEstudiante, int idPrograma)
         {
-            var estudiante = await _db.Estudiantes
+            Estudiante? estudiante = await _db.Estudiantes
                                       .Where(e => e.IdEstudiante == idEstudiante)
                                       .FirstOrDefaultAsync();
 
@@ -124,7 +124,7 @@ namespace ServicioGestionEstudiantes.Negocio
 
         public async Task<string> RegistrarMateriasEstudiante(string idEstudiante, List<int> idMaterias)
         {
-            var estudiante = await _db.Estudiantes
+            Estudiante? estudiante = await _db.Estudiantes
                 .Include(e => e.IdMateria)
                 .Include(e => e.IdProgramaNavigation)  
                 .FirstOrDefaultAsync(e => e.IdEstudiante == idEstudiante);
@@ -154,7 +154,7 @@ namespace ServicioGestionEstudiantes.Negocio
             // Registrar las nuevas materias
             foreach (var materiaId in idMaterias)
             {
-                var materia = await _db.Materia.FindAsync(materiaId);
+                Materia? materia = await _db.Materia.FindAsync(materiaId);
                 if (materia != null)
                 {
                     estudiante.IdMateria.Add(materia);
@@ -171,7 +171,7 @@ namespace ServicioGestionEstudiantes.Negocio
             if (idMaterias.Count > 3)
                 return false; 
 
-            var materiasSeleccionadas = await _db.Materia
+            List<Materia>? materiasSeleccionadas = await _db.Materia
                 .Where(m => idMaterias.Contains(m.IdMateria))
                 .Include(m => m.IdProfesors) 
                 .ToListAsync();
@@ -190,14 +190,14 @@ namespace ServicioGestionEstudiantes.Negocio
 
         public async Task<string> DeleteMateriaEstudiante(string idEstudiante, int idMateria)
         {
-           var estudiante = await _db.Estudiantes
+           Estudiante? estudiante = await _db.Estudiantes
                 .Include(e => e.IdMateria) 
                 .FirstOrDefaultAsync(e => e.IdEstudiante == idEstudiante);
 
             if (estudiante == null)
                 throw new Exception("Estudiante no encontrado.");
 
-            var materia = estudiante.IdMateria.FirstOrDefault(m => m.IdMateria == idMateria);
+            Materia? materia = estudiante.IdMateria.FirstOrDefault(m => m.IdMateria == idMateria);
 
             if (materia == null)
                 throw new Exception($"El estudiante no está inscrito en la materia con ID {idMateria}.");

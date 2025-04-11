@@ -22,7 +22,7 @@ namespace ServicioGestionEstudiantes.WebApi
         }
 
         [HttpPost("[action]")]
-        public async Task<ActionResult<DefaultResponse>> Login(LoginDTO loginDto)
+        public async Task<ActionResult<DefaultResponse>> Login(LoginDto loginDto)
         {
             try
             {
