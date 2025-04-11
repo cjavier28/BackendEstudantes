@@ -1,10 +1,4 @@
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\CoverletSourceRootsMapping_ServicioGestionEstudiantes
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.csproj.AssemblyReference.cache
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.AssemblyInfoInputs.cache
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.AssemblyInfo.cs
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.csproj.CoreCompileInputs.cache
-C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.sourcelink.json
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\testhost.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\testhost.exe
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -162,6 +156,12 @@ C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debu
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\ServicioGestionEstudiantes.Servicios.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\ServicioGestionEstudiantes.Seguridad.pdb
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\bin\Debug\net8.0\ServicioGestionEstudiantes.Entidades.pdb
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.csproj.AssemblyReference.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.AssemblyInfoInputs.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.AssemblyInfo.cs
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.csproj.CoreCompileInputs.cache
+C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.sourcelink.json
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\Servicio.AF79AAB7.Up2Date
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\ServicioGestionEstudiantes.dll
 C:\Users\cjavi\Desktop\PruebaTecnica\Backend\ServicioGestionEstudiantes\obj\Debug\net8.0\refint\ServicioGestionEstudiantes.dll
